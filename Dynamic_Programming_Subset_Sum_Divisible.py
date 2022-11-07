@@ -12,7 +12,7 @@ def get_max_sbstr (s , c1 , c2 ):
         return get_how_many_substring_c1
     else:
         return get_how_many_substring_c2
-#referred form professors code for longest subsequence and modified for getting the values
+
 def get_how_many_string(s,substring):
     
     matrix = [[0 for i in range(len(substring)+1)]for i in range(len(s)+1)]
